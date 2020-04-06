@@ -1,32 +1,3 @@
-/* Template: Juno - Multipurpose Landing Page Pack
-   Author: InovatikThemes
-   Created: Mar 2019
-   Description: Master CSS file
-*/
-
-/*****************************************
-Table Of Contents:
-
-01. General Styles
-02. Preloader
-03. Navigation
-04. Header
-05. Features
-******************************************/
-
-/*****************************************
-Colors:
-
-- Text, navbar links - white #f1f1f8
-- Buttons, bullets, icons - turquoise #00c9db
-- Navbar - navy #4633af
-- Backgrounds - dark denim #262431
-- Backgrounds - denim #2f2c3d
-******************************************/
-
-
-/******************************/
-/*     01. General Styles     */
 /******************************/
 body,
 html {
@@ -304,7 +275,7 @@ select {
 	-moz-appearance: none;
 	-ms-appearance: none;
     -o-appearance: none;
-    appearance: none;
+    /* appearance: none; */
     background-image: url('../images/down-arrow.png');
     background-position: 96% 50%;
     background-repeat: no-repeat;
@@ -632,8 +603,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 113px;
-	height: 34px;
+    width: 100px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 }
@@ -664,7 +634,7 @@ input[type='checkbox'] {
 /* Dropdown Menu */
 .navbar-custom .dropdown:hover > .dropdown-menu {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
-	min-width: auto;
+	/* min-width: auto; */
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
 }
 
